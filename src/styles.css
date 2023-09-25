@@ -1,0 +1,112 @@
+nav {
+    background-color: #222;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1em;
+    margin-bottom: 10px;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.banner div {
+    position: absolute;
+    height: 200px;
+}
+
+
+.banner h1 {
+    margin-left: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner p {
+    position: relative;
+    top: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    bottom: 0;
+}
+
+section {
+    width: 30%;
+    background-color: #e4d5b7;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+section p {
+    font-size: medium;
+}
+
+section img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+a {
+    color: #2d4739;
+}
+
+a:visited {
+    color: purple;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    margin-top: 10px;
+}
+
+.footer_image {
+    height: 5em;
+    width: 2.5em;
+}
+
+@media only screen and (min-width: 800px) {
+    html {
+        display: flex;
+        justify-content: center;
+    }
+    head {
+        width: 800px;
+    }
+    main {
+        width: 800px;
+    }
+    footer {
+        width: 800px;
+    }
+    .banner p {
+        width: 740px;
+        top: 60px;
+    }
+}

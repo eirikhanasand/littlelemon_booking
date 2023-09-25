@@ -1,0 +1,197 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+nav h1 {
+    color: white;
+    font-size: medium;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    height: 2.5rem;
+    align-self: center;
+}
+
+.inner_banner {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+}
+
+.banner_text {
+    position: relative;
+    top: 10em
+
+}
+
+.header {
+    margin: 2em;
+}
+
+.banner {
+    border-radius: 1em;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.banner div {
+    position: absolute;
+    height: 200px;    
+}
+
+
+.banner h1 {
+    margin-left: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner p {
+    position: relative;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section {
+    width: 30%;
+    background-color: #e4d5b7;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+section p {
+    font-size: medium;
+}
+
+section img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    color: #2d4739;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_image {
+    height: 5em;
+    width: 2.5em;
+    margin-left: 1em;
+}
+
+.copyright {
+    color: white;
+    margin-right: 1em;
+}
+
+.booking_outline {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: green;
+    height: 4em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.booking_outline_submit {
+    background-color: green;
+    height: 4em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+    width: 31%;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.booking_outline:hover {
+    cursor: pointer;
+}
+
+.booking_form {
+    width: 31%;
+}
+
+.booking_form h1 {
+    font-size: large;
+    color: white;
+}
+
+.booking_text {
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.booking_input {
+    width: 98.7%;
+    height: 2.5em;
+    border-radius: 1em;
+}
+
+.booking_submit {
+    color: white;
+    font-size: 1.75em;
+    width: 100%;
+    font-weight: 500;
+}
+
+.section {
+    margin-bottom: 35px;
+}
+
+.booking_form_parent {
+    display: grid;
+    place-items: center;
+}
